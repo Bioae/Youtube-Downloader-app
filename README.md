@@ -1,4 +1,4 @@
-# YouTube Downloader (ฺBy BIOAE) 
+# YouTube Downloader (By BIOAE) 
 
 A sleek, standalone YouTube(and some facebook & reels) video downloader app. It is cross-platform and specifically optimized to handle SSL certificate overrides on macOS and format conversions on Windows.
 
