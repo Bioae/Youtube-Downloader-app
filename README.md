@@ -27,6 +27,22 @@ Before installing the app, please ensure you have the following system dependenc
 Follow these simple terminal commands to run the script locally:
 
 1. Clone this repository to your machine:
-```bash
 git clone [https://github.com/Bioae/Youtube-Downloader-app.git](https://github.com/Bioae/Youtube-Downloader-app.git)
 cd Youtube-Downloader-app
+
+2. Install the necessary Python packages:
+pip install -r requirements.txt
+
+3. Run the GUI application:
+python3 src/yt_gui.py
+📦 Publishing to Standalone App (.app / .exe)
+To bundle this Python script into a click-and-run standalone executable program using PyInstaller, execute the following commands:
+
+For macOS (.app generation):
+pyinstaller --onefile --windowed --name "YouTube Downloader" yt_gui.py
+For Windows (.exe generation):
+DOS
+pyinstaller --onefile --windowed --name "YouTube Downloader" --icon=app_icon.ico yt_gui.py
+
+## License
+License by Thatthap Tientavorn 2026. Built for personal utility purposes. Please respect the copyright of the original video creators.
