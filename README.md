@@ -1,5 +1,7 @@
 # YouTube Downloader (By BIOAE) 
 
+<img width="512" height="512" alt="YT_DW" src="https://github.com/user-attachments/assets/9a3c338d-88e1-4ca6-b8f2-3efce4b7b0f0" />
+
 A sleek, standalone YouTube(and some facebook & reels) video downloader app. It is cross-platform and specifically optimized to handle SSL certificate overrides on macOS and format conversions on Windows.
 
 ## 🎬 Key Features
